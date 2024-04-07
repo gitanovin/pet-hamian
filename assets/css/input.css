@@ -126,3 +126,33 @@
 .ltr {
   direction: ltr
 }
+
+.online-help {
+    float: left;
+
+    background-image: linear-gradient(to right,#d62d57 0%,#9d2c48 50%,#d62d57 51%);
+    box-shadow: 0 4px 10px rgba(241,28,81,.2);
+    color: #fff;
+    font-weight: bold;
+    line-height: 34px;
+    border-radius: 12px;
+    background-size: 200% 100%;
+    transition: .2s ease-in-out;
+
+    border: none;
+}
+
+.swiper-pagination-bullet {
+    width: 40px !important;
+    height: 10px !important;
+    display: inline-block;
+    border-radius: 5px !important;
+    background: hsla(348, 48%, 40%, 0) !important;
+    border: 2px solid #963549 !important;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #963549 !important;
+}

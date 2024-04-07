@@ -754,12 +754,131 @@ select {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 240px) {
+  .container {
+    max-width: 240px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1152px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+
+@media (min-width: 1199px) {
+  .container {
+    max-width: 1199px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1366px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+}
+
+@media (min-width: 1930px) {
+  .container {
+    max-width: 1930px;
+  }
+}
+
+@media (min-width: 3840px) {
+  .container {
+    max-width: 3840px;
+  }
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-between {
@@ -768,6 +887,43 @@ select {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.bg-\[\#943448\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 52 72 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.font-fa {
+  font-family: Binto;
+}
+
+.font-fas {
+  font-family: IRANSans;
 }
 
 @font-face {
@@ -946,4 +1102,38 @@ select {
 
 .ltr {
   direction: ltr
+}
+
+.online-help {
+  float: left;
+  background-image: linear-gradient(to right,#d62d57 0%,#9d2c48 50%,#d62d57 51%);
+  box-shadow: 0 4px 10px rgba(241,28,81,.2);
+  color: #fff;
+  font-weight: bold;
+  line-height: 34px;
+  border-radius: 12px;
+  background-size: 200% 100%;
+  transition: .2s ease-in-out;
+  border: none;
+}
+
+.swiper-pagination-bullet {
+  width: 40px !important;
+  height: 10px !important;
+  display: inline-block;
+  border-radius: 5px !important;
+  background: hsla(348, 48%, 40%, 0) !important;
+  border: 2px solid #963549 !important;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #963549 !important;
+}
+
+@media (min-width: 1280px) {
+  .lg\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
 }
