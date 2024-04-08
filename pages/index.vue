@@ -1,17 +1,13 @@
 <template>
     <Header/>
     <Home/>
+    
 </template>
 
-<script>
+<script setup>
+
+
 import Header from "@/components/Header/header.vue";
 import Home from "@/components/Home/home.vue";
 
-export default {
-
-  components: {
-    Header,
-    Home
-  },
-};
 </script>

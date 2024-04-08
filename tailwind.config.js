@@ -71,6 +71,8 @@ module.exports = {
       
     },
     colors: {
+      mahak:"#953548",
+      mahaklight:"#c53d56",
       nightbg:"#26283b",
       nightbox:"#303248",
       primary: "#22c55e",
