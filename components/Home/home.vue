@@ -74,37 +74,114 @@
         <div class="hamian mt-8">
     
             <swiper class="rounded-lg relative overflow-hidden" :keyboard="true" :navigation="true" :modules="modules" :breakpoints="{
-                        '300': {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        '400': {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        '640': {
-                            slidesPerView: 3,
-                            spaceBetween: 20,
-                        },
-                        '768': {
-                            slidesPerView: 3,
-                            spaceBetween: 20,
-                        },
-                        '1024': {
-                            slidesPerView: 4,
-                            spaceBetween: 20,
-                        }, '1280': {
-                            slidesPerView: 4,
-                            spaceBetween: 20,
-                        },
-                        '1920': {
-                            slidesPerView: 6,
-                            spaceBetween: 20,
-                        },
-                    }">
+                            '300': {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            '400': {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            '640': {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                            '768': {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                            '1024': {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
+                            }, '1280': {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
+                            },
+                            '1920': {
+                                slidesPerView: 6,
+                                spaceBetween: 20,
+                            },
+                        }">
     
                 <swiper-slide>
-                    <div class="bg-white person relative overflow-hidden flex items-center justify-between  p-4 border">
+                    <div class="bg-gray-100/70 person relative overflow-hidden flex items-center justify-between  p-4">
+                        <div class="flex items-center ">
+                            <img src="/ali.jpg" alt="" class="w-20  h-20 bg-center flex-none rounded-lg bg-slate-100 object-cover ">
+                            <div class="min-w-0 flex-auto space-y-1 font-semibold mr-2 ">
+                                <p class="text-cyan-500 transition-all duration-500  text-lg leading-6">
+                                    <h2>علی آزادمند</h2>
+                                </p>
+                                <h3 class="text-slate-500 transition-all duration-500  text-sm leading-6 truncate">
+                                    پرستار حیوانات
+                                </h3>
+                                <p class=" transition-all duration-500  text-sm ltr font-en font-normal text-mahak">
+                                    @aliazadmand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+    
+                <swiper-slide>
+                    <div class="bg-gray-100/70 person relative overflow-hidden flex items-center justify-between  p-4">
+                        <div class="flex items-center ">
+                            <img src="/ali.jpg" alt="" class="w-20  h-20 bg-center flex-none rounded-lg bg-slate-100 object-cover ">
+                            <div class="min-w-0 flex-auto space-y-1 font-semibold mr-2 ">
+                                <p class="text-cyan-500 transition-all duration-500  text-lg leading-6">
+                                    <h2>علی آزادمند</h2>
+                                </p>
+                                <h3 class="text-slate-500 transition-all duration-500  text-sm leading-6 truncate">
+                                    پرستار حیوانات
+                                </h3>
+                                <p class=" transition-all duration-500  text-sm ltr font-en font-normal text-mahak">
+                                    @aliazadmand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+    
+                <swiper-slide>
+                    <div class="bg-gray-100/70 person relative overflow-hidden flex items-center justify-between  p-4">
+                        <div class="flex items-center ">
+                            <img src="/ali.jpg" alt="" class="w-20  h-20 bg-center flex-none rounded-lg bg-slate-100 object-cover ">
+                            <div class="min-w-0 flex-auto space-y-1 font-semibold mr-2 ">
+                                <p class="text-cyan-500 transition-all duration-500  text-lg leading-6">
+                                    <h2>علی آزادمند</h2>
+                                </p>
+                                <h3 class="text-slate-500 transition-all duration-500  text-sm leading-6 truncate">
+                                    پرستار حیوانات
+                                </h3>
+                                <p class=" transition-all duration-500  text-sm ltr font-en font-normal text-mahak">
+                                    @aliazadmand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+    
+                <swiper-slide>
+                    <div class="bg-gray-100/70 person relative overflow-hidden flex items-center justify-between  p-4">
+                        <div class="flex items-center ">
+                            <img src="/ali.jpg" alt="" class="w-20  h-20 bg-center flex-none rounded-lg bg-slate-100 object-cover ">
+                            <div class="min-w-0 flex-auto space-y-1 font-semibold mr-2 ">
+                                <p class="text-cyan-500 transition-all duration-500  text-lg leading-6">
+                                    <h2>علی آزادمند</h2>
+                                </p>
+                                <h3 class="text-slate-500 transition-all duration-500  text-sm leading-6 truncate">
+                                    پرستار حیوانات
+                                </h3>
+                                <p class=" transition-all duration-500  text-sm ltr font-en font-normal text-mahak">
+                                    @aliazadmand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+
+                <swiper-slide>
+                    <div class="bg-gray-100/70 person relative overflow-hidden flex items-center justify-between  p-4">
                         <div class="flex items-center ">
                             <img src="/ali.jpg"  alt="" class="w-20  h-20 bg-center flex-none rounded-lg bg-slate-100 object-cover ">
                             <div class="min-w-0 flex-auto space-y-1 font-semibold mr-2 ">
@@ -119,10 +196,7 @@
                                 </p>
                             </div>
                         </div>
-    
                     </div>
-    
-    
                 </swiper-slide>
     
     

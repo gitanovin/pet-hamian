@@ -156,3 +156,19 @@
     opacity: var(--swiper-pagination-bullet-opacity, 1);
     background: #963549 !important;
 }
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 26px !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: #963549;
+    background: rgba(245, 245, 245, 0.521);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
