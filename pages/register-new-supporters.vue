@@ -1,6 +1,6 @@
 <template>
     <Header/>
-    <Home/>
+    <RegisterNewSupporters/>
     <Footer/>
 </template>
 
@@ -8,6 +8,6 @@
 
 
 import Header from "@/components/Header/header.vue";
-import Home from "@/components/Home/home.vue";
+import RegisterNewSupporters from "@/components/RegisterNewSupporters/supporters.vue";
 import Footer from "@/components/Footer/footer.vue";
 </script>

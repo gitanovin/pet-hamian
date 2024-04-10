@@ -1,6 +1,6 @@
 <template>
     <Header/>
-    <Home/>
+    <Finance/>
     <Footer/>
 </template>
 
@@ -8,6 +8,6 @@
 
 
 import Header from "@/components/Header/header.vue";
-import Home from "@/components/Home/home.vue";
+import Finance from "@/components/Finance/finance.vue";
 import Footer from "@/components/Footer/footer.vue";
 </script>
