@@ -1,9 +1,6 @@
 <template>
     <Header/>
-    <div  class="">
-          <Home/>  
-    </div>
-
+    <Events/>
     <Footer/>
 </template>
 
@@ -11,6 +8,6 @@
 
 
 import Header from "@/components/Header/header.vue";
-import Home from "@/components/Home/home.vue";
+import Events from "@/components/Single/events.vue";
 import Footer from "@/components/Footer/footer.vue";
 </script>
