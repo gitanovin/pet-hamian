@@ -1,6 +1,6 @@
 <template>
     <Header/>
-    <Events/>
+    <Single/>
     <Footer/>
 </template>
 
@@ -8,6 +8,6 @@
 
 
 import Header from "@/components/Header/header.vue";
-import Events from "@/components/Single/Events.vue";
+import Single from "@/components/News/Single.vue";
 import Footer from "@/components/Footer/footer.vue";
 </script>

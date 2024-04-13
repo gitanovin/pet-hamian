@@ -43,5 +43,54 @@
         </div>
  
     </header>
+
+    <section class="slider">
+        <swiper class="lg:h-[450px]" :cssMode="true" :navigation="true" :pagination="true" :mousewheel="true" :keyboard="true" :modules="modules">
+            <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/pet.avif"></swiper-slide>
+            <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/1.jpg"></swiper-slide>
+            <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/1.jpg"></swiper-slide>
+    
+        </swiper>
+    </section>
+
+    <section class="mobile-side block lg:hidden">
+<div class="h-screen w-full fixed right-0 top-0 z-20 ">
+    <div class="backdrop bg-gray-100/50 w-full h-screen"></div>
+    <div class="close absolute left-2 top-4">
+<i class="fa fa-times text-2xl bg-white p-2 rounded-lg"></i>
+    </div>
+    <div class="bg-white opacity-90 absolute z-50 w-64 right-0 top-0 h-screen">
+        <div class="logo w-full border-b">
+<img src="/dog.svg" class="max-w-20 mx-auto ">
+        </div>
+        <ul class="flex flex-col space-y-6 p-4 font-semibold text-gray-700">
+<li>خانه</li>
+<li>قرارهای مهربانی</li>
+<li>تماس با ما</li>
+<li>درباره ما</li>
+<li cl>ثبت نام حامیان جدید</li>
+        </ul>
+    </div>
+
+</div>
+    </section>
 </template>
+
+
+<script setup>
+// import { Vue3Lottie } from 'vue3-lottie'
+//Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+//Import Swiper styles
+import 'swiper/css';
+
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+
+// import required modules
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+const modules = [Navigation, Pagination, Mousewheel, Keyboard];
+</script>
 

@@ -1,12 +1,5 @@
 <template>
-    <section class="slider">
-        <swiper class="lg:h-[450px]" :cssMode="true" :navigation="true" :pagination="true" :mousewheel="true" :keyboard="true" :modules="modules">
-            <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/pet.avif"></swiper-slide>
-            <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/1.jpg"></swiper-slide>
-            <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/1.jpg"></swiper-slide>
-    
-        </swiper>
-    </section>
+
     
     <section class="Kind-appointments lg:pt-24  w-full max-w-screen-xl mx-auto ">
         <div class="grid grid-cols-12 gap-4">
@@ -75,10 +68,10 @@
     
         <div class="hamian mt-8 grid grid-cols-12 gap-6">
     <div class="lg:col-span-6 col-span-12 bg-mahak rounded-lg">
-        <header class="flex justify-between items-center p-4 border-b border-red-50/20 mb-6">
-            <h3 class=" text-white text-2xl font-semibold">زمان قرار</h3>
+        <header class="lg:flex justify-between items-center p-4 border-b border-red-50/20 mb-6">
+            <h3 class=" text-white text-2xl font-semibold lg:mb-0 mb-6">زمان قرار</h3>
             <div class="shomareshgar font-semibold text-mahak bg-white p-4 rounded-lg">
-                <span class="px-4">23 روز</span><span class="px-4">10 ساعت</span><span class="px-4">32 دقیقه</span><span class="px-4">10 ثانیه</span>
+                <span class="px-2">23 روز</span><span class="px-2">10 ساعت</span><span class="px-2">32 دقیقه</span><span class="px-2">10 ثانیه</span>
             </div>
         </header>
 
