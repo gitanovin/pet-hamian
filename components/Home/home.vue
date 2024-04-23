@@ -156,7 +156,8 @@
                         }">
     
                 <swiper-slide>
-                    <div class="bg-white  border border-gray-100 rounded-lg person relative overflow-hidden flex items-center justify-between  p-4">
+                    <nuxt-link to="/biography">
+                        <div class="bg-white  border border-gray-100 rounded-lg person relative overflow-hidden flex items-center justify-between  p-4">
                         <div class="flex items-center ">
                             <img src="/ali.jpg" alt="" class="w-20  h-20 bg-center flex-none rounded-xl bg-slate-100 object-cover ">
                             <div class="min-w-0 flex-auto space-y-1 font-semibold mr-2 ">
@@ -171,7 +172,9 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> 
+                    </nuxt-link>
+                   
                 </swiper-slide>
     
                 <swiper-slide>
