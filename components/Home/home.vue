@@ -1,7 +1,23 @@
 <template>
 
-    
-    <section class="Kind-appointments lg:pt-24  w-full max-w-screen-xl mx-auto ">
+<div class="Hero isolate">
+    <section class="relative pt-16">
+    <div class="w-full max-w-screen-xl mx-auto relative overflow-hidden flex items-center justify-center lg:justify-start lg:py-26 py-26 px-8 ">
+        <div class="grid lg:grid-cols-12 gap-6 relative z-10 overflow-hidden">
+            <div class="col-span-12 lg:col-span-8 text-center lg:text-right">
+                <h1 class="xl:text-6xl md:text-3xl text-3xl xs:text-[28px] font-extrabold text-mahak font-fa py-4 pt-16"> پتومن <span class="text-mahak">حامی حیوانات خانگی</span></h1>
+                <div class="py-4 text-gray-700 font-fa flex items-center justify-center lg:justify-start gap-2 pb-4"><span class="text-2xl">حمایت از حیوانات بی سرپرست این می تواند تغییر کند</span></div>
+                <div class="buttons flex gap-4 items-center lg:justify-start justify-center xs:gap-y-6 space-y-0 mt-8">
+                    <button type="button" class="text-mahak bg-white shadow-lg shadow-white/50 py-3 px-5 rounded-lg w-auto font-semibold"> ورود به پتومن </button>
+                    <a href="/auth/sign-up" class="">
+                        <button type="button" class="text-white bg-mahak py-3 px-5 rounded-lg w-auto shadow-lg shadow-mahak/40 font-semibold"> ثبت نام در پتومن </button></a>
+                    </div></div>
+    <div class="col-span-12 lg:col-span-4"><img src="@/assets/images/pets.svg" class="w-[700px] block"></div>
+</div></div>
+</section>
+
+
+    <section class="Kind-appointments lg:pt-24  w-full max-w-screen-xl mx-auto z-10 relative">
         <div class="grid grid-cols-12 gap-4">
     
             <div class="lg:col-span-4 col-span-12">
@@ -56,9 +72,92 @@
         </div>
     
     </section>
+</div>
 
 
-    <section class="Introduction-sponsors w-full max-w-screen-xl mx-auto  mt-8  rounded-lg">
+
+
+    <section class="Introduction-sponsors w-full max-w-screen-xl mx-auto  my-8 mb-16 rounded-lg relative z-10">
+        <div class="text-2xl text-mahak font-semibold flex items-center justify-start">
+            <i class="fa fa-icons pl-2"></i>
+            <h2>مستندات حمایت از حیوانات</h2>
+            <a href="/hamian" class="mr-2 text-sm bg-gray-100 px-3 py-1 rounded-lg flex items-center justify-center pt-1 text-gray-700">مشاهده همه<i class="fa fa-chevron-left pr-2"></i></a>
+    
+        </div>
+    
+        <div class="hamian mt-8">
+    
+            <swiper class="rounded-lg relative overflow-hidden" :keyboard="true" :navigation="true" :modules="modules" :breakpoints="{
+                            '300': {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            '400': {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            '640': {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                            '768': {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                            '1024': {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
+                            }, '1280': {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
+                            },
+                            '1920': {
+                                slidesPerView: 6,
+                                spaceBetween: 20,
+                            },
+                        }">
+    
+                    <swiper-slide>
+                    <nuxt-link to="/biography">
+                        <div class="bg-white  border border-gray-100 rounded-lg person relative overflow-hidden">
+                        <div class="block w-full">
+                            <div class="image-or-video relative overflow-hidden flex items-center justify-center">
+<div class="bg-white/30 w-full h-full absolute flex items-center justify-center inset-0 text-center">
+    <div class="bg-black/30 w-10 h-10 rounded-lg flex items-center justify-center">
+     <i class="fa fa-play text-2xl text-white "></i>   
+    </div>
+
+</div>
+       <img src="@/assets/images/dog.jpg" alt="" class="w-full h-48 object-cover ">
+                            </div>
+                     
+                            <div class="min-w-0 flex-auto space-y-1 font-semibold p-4">
+                                <p class="text-mahak transition-all duration-500  text-lg leading-6">
+                                    <h2>نان دادن به گربه ها</h2>
+                                </p>
+                                <h3 class="text-slate-500 transition-all duration-500  text-sm leading-6 truncate">
+                                   این توظیح کواته تستس است
+                                </h3>
+                             
+                            </div>
+                        </div>
+                    </div> 
+                    </nuxt-link>
+                   
+                </swiper-slide>
+    
+    
+
+    
+    
+            </swiper>
+        </div>
+    
+    </section>
+
+
+
+    <section class="Introduction-sponsors w-full max-w-screen-xl mx-auto  mt-8  rounded-lg relative z-10">
         <div class="text-2xl text-mahak font-semibold flex items-center justify-start">
             <i class="fa fa-handshake pl-2"></i>
             <h2>قرارهای مهربانی</h2>

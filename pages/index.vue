@@ -1,13 +1,13 @@
 <template>
     <Header/>
-    <section class="slider">
+    <!-- <section class="slider">
         <swiper class="lg:h-[450px]" :cssMode="true" :navigation="true" :pagination="true" :mousewheel="true" :keyboard="true" :modules="modules">
             <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/pet.avif"></swiper-slide>
             <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/1.jpg"></swiper-slide>
             <swiper-slide class="lg:h-[450px]"><img class="lg:h-[450px] w-full object-cover" src="@/assets/images/1.jpg"></swiper-slide>
     
         </swiper>
-    </section>
+    </section> -->
 
     <div  class="p-4 lg:-0">
           <Home/>  
