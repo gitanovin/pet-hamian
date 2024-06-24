@@ -1,6 +1,6 @@
 <template>
   <div
-    class="Header-Mobile items-center justify-between gap-6 flex lg:hidden w-full h-[60px] px-4 shadow-lg shadow-gray-300/50 fixed m-auto pt-2 top-0 left-0 right-0 z-50 bg-white "
+    class="Header-Mobile items-center justify-between gap-6 flex lg:hidden w-full h-[60px] px-4 shadow-lg fixed m-auto pt-2 top-0 left-0 right-0 z-50 bg-white"
   >
     <div class="left flex items-center justify-end gap-4">
       <button type="button" class="menu text-xl text-gray-600">
@@ -25,9 +25,9 @@
   </div>
 
   <header class="hidden lg:block z-20 relative">
-    <div class="bg-white p-3 w-full font-fas">
+    <div class="p-3 w-full font-fas ">
       <div
-        class="w-full max-w-screen-xl mx-auto flex items-center justify-between"
+        class="w-full max-w-screen-xl mx-auto flex items-center justify-between bg-white p-5 rounded-lg"
       >
         <div class="logo">
           <img
@@ -35,7 +35,7 @@
           />
         </div>
         <div class="menu">
-          <ul class="gap-4 items-center justify-start hidden lg:flex">
+          <ul class="gap-4 items-center justify-start hidden lg:flex ">
             <li>خانه</li>
             <li>قرارهای مهربانی</li>
             <li>تماس با ما</li>
@@ -55,7 +55,7 @@
   </header>
 
   <section class="mobile-side block lg:hidden">
-    <div class="h-screen w-full fixed right-0 top-0 z-20">
+    <div class="h-screen w-full fixed right-0 top-0 z-50">
       <div class="backdrop bg-gray-100/50 w-full h-screen"></div>
       <div class="close absolute left-2 top-4">
         <i class="fa fa-times text-2xl bg-white p-2 rounded-lg"></i>

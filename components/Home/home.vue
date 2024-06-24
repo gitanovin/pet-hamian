@@ -1,29 +1,29 @@
 <template>
 
-<div class="Hero isolate">
-    <section class="relative pt-16">
-    <div class="w-full max-w-screen-xl mx-auto relative overflow-hidden flex items-center justify-center lg:justify-start lg:py-26 py-26 px-8 ">
-        <div class="grid lg:grid-cols-12 gap-6 relative z-10 overflow-hidden">
-            <div class="col-span-12 lg:col-span-8 text-center lg:text-right">
-                <h1 class="xl:text-6xl md:text-3xl text-3xl xs:text-[28px] font-extrabold text-mahak font-fa py-4 pt-16"> پتومن <span class="text-mahak">حامی حیوانات خانگی</span></h1>
-                <div class="py-4 text-gray-700 font-fa flex items-center justify-center lg:justify-start gap-2 pb-4"><span class="text-2xl">حمایت از حیوانات بی سرپرست این می تواند تغییر کند</span></div>
-                <div class="buttons flex gap-4 items-center lg:justify-start justify-center xs:gap-y-6 space-y-0 mt-8">
-                    <button type="button" class="text-mahak bg-white shadow-lg shadow-white/50 py-3 px-5 rounded-lg w-auto font-semibold"> ورود به پتومن </button>
+<div class="hero before:bg-rose-900 before:w-full before:h-[700px] before:absolute before:top-0 before:inset-0 lg:before:rounded-bl-[200px] before:bg-gradient-to-r before:from-mahak before:via-rose-800 before:to-rose-500">
+    <section class="relative">
+    <div class="w-full max-w-screen-xl mx-auto relative overflow-hidden flex items-center justify-center px-8 py-16  rounded-3xl">
+        <div class="relative z-10 overflow-hidden">
+            <div class="text-center">
+                <h1 class="xl:text-6xl md:text-3xl text-3xl xs:text-[28px] font-extrabold text-white font-fas py-4 pt-16"> پتومن <span class="text-white">حامی حیوانات </span></h1>
+                <div class="py-4 text-rose-200 font-fa flex items-center justify-center  gap-2 pb-4"><span class="text-2xl">شما هم می توانید در حمایت از حیوانات به ما کمک کنید</span></div>
+                <div class="buttons flex gap-4 items-center  justify-center xs:gap-y-6 space-y-0 mt-8">
+                    <button type="button" class="text-mahak bg-white shadow-lg shadow-white/50 py-3 px-5 rounded-lg w-auto font-semibold">ثبت نام حامیان حیوانات</button>
                     <a href="/auth/sign-up" class="">
-                        <button type="button" class="text-white bg-mahak py-3 px-5 rounded-lg w-auto shadow-lg shadow-mahak/40 font-semibold"> ثبت نام در پتومن </button></a>
+                        <button type="button" class="text-white bg-rose-900 py-3 px-5 rounded-lg w-auto shadow-lg shadow-rose-500/40 font-semibold"> ثبت نام در پتومن </button></a>
                     </div></div>
-    <div class="col-span-12 lg:col-span-4"><img src="@/assets/images/pets.svg" class="w-[700px] block"></div>
+    <!-- <div class="col-span-12 lg:col-span-4"><img src="@/assets/images/pets.svg" class="w-[700px] block"></div> -->
 </div></div>
 </section>
 
 
-    <section class="Kind-appointments lg:pt-24  w-full max-w-screen-xl mx-auto z-10 relative">
+    <section class="Kind-appointments lg:pt-24  w-full max-w-screen-xl mx-auto z-10 relative pb-16">
         <div class="grid grid-cols-12 gap-4">
     
-            <div class="lg:col-span-4 col-span-12">
+            <div class="lg:col-span-4 col-span-12 ">
     
                 <client-only>
-                    <Vue3Lottie animationLink="/dog.json" :height="200" :width="250" />
+                    <Vue3Lottie animationLink="/dog.json" :height="300" :width="500" class="lg:absolute lg:top-0"/>
                 </client-only>
     
             </div>
