@@ -20,11 +20,13 @@
     <section class="Kind-appointments lg:pt-24  w-full max-w-screen-xl mx-auto z-10 relative pb-16">
         <div class="grid grid-cols-12 gap-4">
     
-            <div class="lg:col-span-4 col-span-12 ">
-    
-                <client-only>
-                    <Vue3Lottie animationLink="/dog.json" :height="300" :width="500" class="lg:absolute lg:top-0"/>
+            <div class="lg:col-span-4 col-span-12 mx-auto">
+    <div class="lg:h-[300px] lg:w-[500px] w-[250px] h-[300px]">
+                        <client-only>
+                    <Vue3Lottie animationLink="/dog.json" class="lg:absolute lg:top-0 lg:h-[300px] lg:w-[500px] w-[150px] h-[150px]"/>
                 </client-only>
+    </div>
+
     
             </div>
     
