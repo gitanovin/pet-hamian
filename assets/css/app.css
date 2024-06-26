@@ -1069,6 +1069,10 @@ select {
   height: 300px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
